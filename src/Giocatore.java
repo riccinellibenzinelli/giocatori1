@@ -53,6 +53,10 @@ public class Giocatore {
     }
 
         public void setGoal(int goal) {
-            setGoal(goal);
+            if(goal<0){
+            }
+               else{
+                    setGoal(goal);
+            }
     }
 }
