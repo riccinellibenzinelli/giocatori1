@@ -3,35 +3,35 @@ public class Giocatore {
     private boolean capitano;
     private int goal;
         public Giocatore (String nomeGiocatore, boolean isCapitano, int isGoal){
-            nome = nomeGiocatore;
-            capitano = isCapitano;
-            goal = isGoal;
+            setNome(nome);
+            setCapitano(capitano);
+            setGoal(goal);
         }
         public Giocatore(String nome){
-            this.nome = nome;
+            setNome(nome);
         }
-    public Giocatore(boolean capitano){
-        this.capitano = capitano;
+        public Giocatore(boolean capitano){
+            setCapitano(capitano);
     }
-    public Giocatore(int goal){
-        this.goal = goal;
+        public Giocatore(int goal){
+            setGoal(goal);
     }
-    public Giocatore(String nome,boolean capitano){
-        this.nome = nome;
-        this.capitano = capitano;
+        public Giocatore(String nome,boolean capitano){
+            setNome(nome);
+            setCapitano(capitano);
     }
-    public Giocatore(String nome,int goal){
-        this.nome = nome;
-        this.goal = goal;
+        public Giocatore(String nome,int goal){
+            setNome(nome);
+            setGoal(goal);
     }
-    public Giocatore(boolean capitano,int goal){
-        this.capitano = capitano;
-        this.goal = goal;
+        public Giocatore(boolean capitano,int goal){
+            setCapitano(capitano);
+            setGoal(goal);
     }
-    public Giocatore(){
-            this.goal = 0;
-            this.capitano = false;
-            this.nome = null;
+        public Giocatore(){
+            setGoal(goal);
+            setCapitano(capitano);
+            setNome(nome);
     }
 
         public String getNome(){
@@ -44,15 +44,15 @@ public class Giocatore {
         return goal;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+        public void setNome(String nome) {
+            setNome(nome);
     }
 
-    public void setCapitano(boolean capitano) {
-        this.capitano = capitano;
+        public void setCapitano(boolean capitano) {
+            setCapitano(capitano);
     }
 
-    public void setGoal(int goal) {
-        this.goal = goal;
+        public void setGoal(int goal) {
+            setGoal(goal);
     }
 }
