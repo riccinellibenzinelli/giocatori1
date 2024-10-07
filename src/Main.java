@@ -4,7 +4,6 @@ public class Main {
         int scelta;
         Scanner in = new Scanner(System.in);
         Giocatore [] g = new Giocatore[10];
-        Giocatore nome = new Giocatore("");
         do {
             System.out.println("Scegli una tra queste funzoni");
             System.out.println("1:aggiungere un giocatore alla squadra, controllando che non ci sia più di un capitano");
@@ -18,12 +17,18 @@ public class Main {
             scelta = in.nextInt();
         }
         while(scelta !=0);
-            switch (scelta){
+            switch (scelta) {
                 case 1:
-                    for(int i = 0;i<g.length;i++){
 
-                    }
+                    break;
 
+                case 2:
+
+                    break;
+
+                case 3:
+
+                    break;
+            }
         }
     }
-}
